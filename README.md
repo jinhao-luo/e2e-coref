@@ -12,6 +12,7 @@ This repository contains the code for replicating results from
 * Install python 3.6 requirements: `pip install -r requirements.txt`
 * Download pretrained models at https://drive.google.com/file/d/1fkifqZzdzsOEo0DXMzCFjiNXqsKG_cHi
   * Move the downloaded file to the root of the repo and extract: `tar -xzvf e2e-coref.tgz`
+* Download https://lil.cs.washington.edu/coref/char_vocab.english.txt and put in repo root folder
 * Download GloVe embeddings and build custom kernels by running `setup_all.sh`.
   * There are 3 platform-dependent ways to build custom TensorFlow kernels. Please comment/uncomment the appropriate lines in the script.
 * To train your own models, run `setup_training.sh`
