@@ -9,7 +9,7 @@ This repository contains the code for replicating results from
 
 ## Getting Started
 
-* Install python (either 2 or 3) requirements: `pip install -r requirements.txt`
+* Install python 3.6 requirements: `pip install -r requirements.txt`
 * Download pretrained models at https://drive.google.com/file/d/1fkifqZzdzsOEo0DXMzCFjiNXqsKG_cHi
   * Move the downloaded file to the root of the repo and extract: `tar -xzvf e2e-coref.tgz`
 * Download GloVe embeddings and build custom kernels by running `setup_all.sh`.
